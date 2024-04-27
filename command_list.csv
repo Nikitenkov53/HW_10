@@ -1,0 +1,25 @@
+    1  git config --global user.ename Nikitenkov53
+    2  git config --global user.email tim4eek@i.ua
+    3  git clone https://github.com/Nikitenkov53/HW_10.git
+    4  cd HW_10/
+    5  touch text_ignore.txt
+    6  vim .gitignore
+    7  git status
+    8  git add .gitignore
+    9  git commit -m "added changes to .gitignore"
+   10  touch main_test.txt
+   11  git add main_test.txt
+   12  git commit -m "added new file"
+   13  git branch develop
+   14  git checkout develop
+   15  touch develop_test.txt
+   16  git add develop_test.txt
+   17  git commit -m "added new file to branch develop"
+   18   vim develop_test.txt
+   19  git status
+   20  git add develop_test.txt
+   21  git commit -m "added changes to develop_test.txt"
+   22  git checkout main
+   23  git merge develop
+   24  git log
+   25  history > command_list.csv
