@@ -5,7 +5,7 @@
     5  touch text_ignore.txt
     6  vim .gitignore
     7  git status
-    8  git add .gitignore
+    8  git add .
     9  git commit -m "added changes to .gitignore"
    10  touch main_test.txt
    11  git add .
